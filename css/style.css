@@ -149,12 +149,27 @@ nav {
 /* Media Query - Responsividade */
 @media(max-width: 700px){
     body{
-        background-color: goldenrod;
+        /* background-color: goldenrod; */
     }
 
     .cards{
         .cardItem{
             width: 70%;
         }
+    }
+}
+
+.formularioAdd{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-family: var(--font-defaut);
+
+
+    form{
+        display: flex;
+        /* padding: 5px; */
+        width: 40%;
+        flex-direction: column;
     }
 }
